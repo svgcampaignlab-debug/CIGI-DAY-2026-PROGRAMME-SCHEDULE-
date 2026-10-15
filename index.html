@@ -465,7 +465,8 @@ footer .copy{position:relative;margin-top:26px;padding-top:18px;border-top:1px s
       <div class="steps">
         <div class="step"><b>1</b>Scan the QR code with your phone camera — or tap the button below</div>
         <div class="step"><b>2</b>Fill in your details in the registration form</div>
-        <div class="step"><b>3</b>Submit, and see you at CIGI Day 2026 🎉</div>
+        <div class="step"><b>3</b>Submit the registration form</div>
+        <div class="step"><b>4</b>Once registration is complete, check your email to receive your ticket 🎟️</div>
       </div>
       <div class="reg-actions">
         <a class="cta" href="https://forms.gle/1CniJAVC36zYvpCs7" target="_blank" rel="noopener">📝 Open Registration Form <span class="ar">→</span></a>
@@ -544,11 +545,15 @@ const DAYS = [
    theme:'Literature, Reflection & Music',
    grad:'linear-gradient(140deg,#2f5be0 0%,#1637a8 55%,#0b1f73 100%)', sh:'rgba(22,55,168,.6)',
    events:[
-   {s:'16:00',e:'19:00',icon:'🕓',cat:'ceremony',title:'Welcome & Registration',
-    desc:'A warm welcome to everyone arriving for CIGI Day 2026. Complete your registration, reconnect with old friends and set the tone for three days of celebration.',
-    
-    hl:[['📝','Registration'],['🤝','Welcome'],['☕','Meet & Greet']],
+   {s:'16:00',e:'18:30',icon:'🕓',cat:'ceremony',title:'Registration & Check-in',
+    desc:'Arrive, complete your registration and check in for CIGI Day 2026. Collect your details, reconnect with old friends and settle in for three days of celebration.',
+    hl:[['📝','Registration'],['✅','Check-in'],['🤝','Meet & Greet']],
     aud:['All delegates','CIGI members','Guests'], people:[]},
+   {s:'18:30',e:'19:00',icon:'🍲',cat:'culture',title:'Ruchi Melam',sub:'A Feast of Flavours',
+    desc:'Ruchi Melam — a festival of flavours where everyone gathers to enjoy delicious food and good company before the evening programmes begin.',
+    chips:['Food Fest','Flavours','Togetherness'],
+    hl:[['🍲','Food Fest'],['😋','Flavours'],['🤝','Togetherness']],
+    aud:['Everyone'], people:[]},
    {s:'19:00',e:'20:30',icon:'📚',cat:'learning',title:'CIGI Career Literature Fest',
     desc:'An evening devoted to career literature — conversations around books on careers, education and personal growth, talks by guest speakers, open discussions and the release of new career books.',
     
@@ -593,7 +598,7 @@ const DAYS = [
     desc:'Where are careers heading in a changing world? A career forum exploring new fields and skills, with a chance to interact directly with experts.',
     
     hl:[['🔮','Future of Careers'],['🧑‍🏫','Expert Interaction'],['❓','Q & A']],
-    aud:['Students','Parents','Career guides'], people:[P('Expert'),P('Expert'),P('Moderator')]},
+    aud:['Students','Parents','Career guides'], people:[P('Guest'),P('Guest')]},
    {s:'13:00',e:'14:00',icon:'🍽️',cat:'break',title:'Lunch Break'},
    {s:'14:00',e:'15:00',icon:'🧠',cat:'competition',title:'Career Challenge – District Quiz',sub:'Inter-District Career Quiz Competition',
     desc:'Districts go head-to-head in an inter-district career quiz — an exciting hour that tests knowledge and speed.',
